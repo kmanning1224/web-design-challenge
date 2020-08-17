@@ -18,40 +18,47 @@
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/Projects-Clean.css">
 </head>
-
-<body>
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand" href="#">Brand</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#">First Item</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Second Item</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#">Third Item</a></li>
-                </ul>
-            </div>
-        </div>
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="index.html">Main Page</a>
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: rgba(255,255,255,0);">
+                <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="data.html">Data</a></li>
+                            <li class="nav-item" role="presentation"></li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">plots</a>
+                                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="visualizations.html">Visualizations</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav><button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button></div>
     </nav>
-    <div class="projects-clean">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Visualizations</h2>
-            </div>
+    <header class="masthead" style="background: url(assets/img/wallpapertip_weather-app-wallpaper_252081.jpg) no-repeat;background-size: cover;"><div class="intro-body" style="background-color: rgba(74,98,92,0.46);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+
+                <style>div.container {
+                    background-color:transparent;
+                }</style>
+
             <div class="row projects">
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/Lat_vs_Temp.png">
+                <div class="col-sm-4 col-lg-5 item"><img class="img-fluid" src="assets/img/Lat_vs_Temp.png">
                     <h3 class="name">latitude vs. temp</h3>
                     <p class="description">As shown above, we can see that latitude of location can affect the temperature. At 20-40 Latitude temperatures seem to be highest.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/Lat_vs_Humid.png">
+                <div class="col-sm-4 col-lg-5 item"><img class="img-fluid" src="assets/img/Lat_vs_Humid.png">
                     <h3 class="name">Latitude vs. hUMIDITY</h3>
                     <p class="description">In this plot we can see how Latitude and Humidity work together. Humidity seems to be spread evenly throughout all levels of Latitude.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/Lat_vs_Wind.png">
+                <div class="col-sm-4 col-lg-5 item"><img class="img-fluid" src="assets/img/Lat_vs_Wind.png">
                     <h3 class="name">Latitude vs. wind</h3>
                     <p class="description">In this plot we compare wind speed to Latitude. The highest point of wind speed was found at 20 Latitude.</p>
                 </div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/vacaheatmap.png"></div>
-                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/Lat_vs_Cloud.png">
+                <div class="col-sm-4 col-lg-5 item"><img class="img-fluid" src="assets/img/Lat_vs_Cloud.png">
                     <h3 class="name">Latitude vs clouds</h3>
                     <p class="description">This final plot is comparing cloudiness to latitude. There were not any major&nbsp;differences found.</p>
                 </div>
